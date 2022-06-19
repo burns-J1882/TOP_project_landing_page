@@ -2,13 +2,21 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOP Landing Page</title>
 </head>
 <body>
-    <header>
+
+
+
+    <header class="header">     
+    <div class="logo-nav">    
     <div class="logo">Header Logo</div>
         <nav>
             <ul>
@@ -17,12 +25,19 @@
                 <li><a href="#">header link three</a></li>
             </ul>
         </nav>
+    </div>
      <div class="value-prop">
-        <h1>This Website is awesome</h1>
+        <div class="VP-copy">
+        <h1>This website is awesome</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis numquam dolorum provident omnis repellat deleniti</p>
-        <button>Sign Up</button>
-        <img class="header-image" src="./images/pexels-gilberto-reyes-825949.jpeg" alt="dog-pic">
-    </header>
+        <button class="sign-up-button">Sign Up</button>
+    </div>
+        <img class="VP-image" src="./images/pexels-gilberto-reyes-825949.jpeg" alt="dog-pic">
+   </div>
+   </header>
+
+
+
     <main>
     <section class="information">
         <h2>Some random information</h2>
@@ -55,11 +70,11 @@
             <p><strong>Call to action! It's time!</strong></p>
             <p>sign up by clicking that nice pretty button over there</p>
             </div>
-            <button>Sign up</button>
+            <button class="sign-up-button">Sign up</button>
         </div>
     </section>
     </main>
-    <footer>
+    <footer class="footer">
         <p>Copyright The Odin Project 2022</p>
     </footer>
 </body>
